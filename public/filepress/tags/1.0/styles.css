@@ -1,0 +1,204 @@
+/*
+//
+// LMB^Box FilePress 'styles.css' File
+//
+LMB^Box FilePress
+http://aboutme.lmbbox.com/lmbbox-plugins/lmbbox-filepress/
+FilePress allows you to browse and upload files on the write tab of WordPress. There will be two new buttons in the quicktags toolbar, one 'Browse' and the other 'Upload'. They will enable you to upload new files, create thumbnails of images, link to files, link to images, include thumbnails / images / certain files, and also include thumbnails / images / certain files with links to the orginal file.
+Version 1.0, 2005-08-31
+By Thomas Montague
+http://aboutme.lmbbox.com/
+*/
+
+/***************** BEGIN - Body Styles **************************/
+body {
+	margin: 0;
+	padding: 0;
+	background: #F2F2F2;
+	color: #000000;
+}
+body, td {
+	font: 10pt Georgia, "Times New Roman", Times, serif;
+}
+/***************** END - Body Styles **************************/
+
+/***************** BEGIN - Link Styles **************************/
+a, a:visited {
+	margin: 1px;
+	padding: 2px;
+/*	color: #000000; */
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+	cursor: pointer !important;
+}
+a.button_link, a.button_link:visited {
+	margin: 1px;
+	padding: 2px;
+	border: 1px solid #D6D3CE;
+	background: #F4F4F4;
+	color: #000000;
+	text-decoration: none;
+}
+a.button_link:hover {
+	background: #FFFFFF;
+	cursor: pointer !important;
+}
+/***************** END - Link Styles **************************/
+
+/***************** BEGIN - General Styles **************************/
+h2 {
+	margin: 5px 10px;
+	border-bottom: 2px solid #69c;
+	color: #333;
+	font: normal 22px/18px serif;
+}
+p, li {
+	line-height: 130%;
+}
+li {
+	margin-bottom: 6px;
+}
+img {
+	border: 0;
+}
+img.button_link {
+}
+/***************** END - General Styles **************************/
+
+/***************** BEGIN - Form Styles **************************/
+form, label input {
+/*
+	margin: 0;
+	padding: 0;
+*/
+}
+label {
+	cursor: pointer !important;
+}
+input, textarea, select {
+	margin: 1px;
+	padding: 3px;
+	border: 1px solid #b2b2b2;
+	background: #f4f4f4;
+	color: #000;
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+input:focus, textarea:focus, label:focus {
+	border: 1px solid #686868;
+	background: #FFFFFF;
+}
+.checkbox {
+	margin: 0;
+	padding: 0;
+	border: none;
+	background: #FFFFFF;
+}
+/***************** END - Form Styles **************************/
+
+/***************** BEGIN - IDs And Classes Styles **************************/
+#top_menu {
+	padding: 10px;
+	border-bottom: 1px solid #CCCCCC;
+	background: #F0F8FF;
+}
+#top_menu .logo {
+	float: right;
+	text-align: right;
+	font-weight: bold;
+}
+
+#layout {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#layout td.info_message {
+	padding: 5px 10px;
+	border: 1px solid #CCCCCC;
+	background: #FFFF00;
+	cursor: pointer !important;
+}
+#layout td.address_bar {
+	padding: 5px 10px;
+	border: 1px solid #CCCCCC;
+	background: #F0F8FF;
+}
+#layout td.left_panel {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	width: 250px;
+	background: #FFFFFF;
+	vertical-align: top;
+}
+#layout td.left_panel div {
+	margin: 5px;
+	border: 1px solid #CCCCCC;
+}
+#layout td.left_panel div.title {
+	margin-bottom: 0;
+	padding: 5px 10px;
+	border: 1px solid #CCCCCC;
+	background: #F0F8FF;
+}
+#layout td.left_panel div.title a, #layout td.left_panel div.title a:visited {
+	margin: 0;
+	padding: 2px 5px;
+	float: right;
+	border: 0;
+	background: #F0F8FF;
+}
+#layout td.left_panel div.title a:hover {
+	border: 1px solid #CCCCCC;
+	background: #F0F8FF;
+}
+#layout td.left_panel div.panel {
+	margin-top: 0;
+	padding: 5px;
+	border-top: 0;
+	line-height: 150%;
+	background: #FFFFFF;
+}
+#layout td.left_panel div.panel img {
+	margin-right: 10px;
+}
+
+#layout td.left_panel div.panel form#add_post_form div {
+	padding: 3px;
+	border: 0
+}
+
+
+#layout td.right_panel {
+	padding: 10px;
+	border: 1px solid #CCCCCC;
+	width: auto;
+	background: #FFFFFF;
+	vertical-align: top;
+}
+#layout td.right_panel div {
+	text-align: center;
+}
+#browse_listing {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+#browse_listing td {
+	padding: 5px;
+	border: 1px solid #CCCCCC;
+	width: 50%;
+	background: #F2F2F2;
+	text-align: center;
+	vertical-align: middle;
+	cursor: pointer !important;
+}
+#browse_listing td.disabled {
+	cursor: default !important;
+}
+#browse_listing td.right {
+}
+#browse_listing td.left {
+}
+/***************** END - IDs And Classes Styles **************************/
